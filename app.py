@@ -39,8 +39,14 @@ def fetch_messages():
 fetch_messages()#kallar på def fetch_messages från start
 root.mainloop()
 
-#Visuella 
+#Visuella Github instruktioner 
 #Steg 1, Tryck på source control ikonen till vänster
 #Steg 2, Append changes
 #Steg 3, Skriv en kommentar
 #Steg 4, Tryck på commit
+
+#Terminal kommandon för Github
+#Steg 1, git status - visar förändringar 
+#Steg 2, git add . - lägger till ändringar under changes, git add app.py lägger till bara den specifika filen
+#Steg 3, git commit -m "comment for commit"
+#Steg 4, git push 
